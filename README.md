@@ -2,4 +2,12 @@
 **Disciplina:** Fundamentos de Inteligência Artificial (FIA)  
 **Professor:** Edjard Mota
 
-## Equipe
+## 👥 Equipe
+• Karen Juliana Báez González  
+• Luna Veiga Horta Braga
+
+## 📋 Sumário  
+
+#1. Sobre o projeto
+
+
