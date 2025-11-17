@@ -2,6 +2,8 @@
 **Disciplina:** Fundamentos de Inteligência Artificial (FIA)  
 **Professor:** Edjard Mota
 
+**Link para colab:** https://colab.research.google.com/drive/1-yusfa1KWHCgExvv30kPbbCuVvS7mM_l?usp=sharing
+
 ## 👥 Equipe
 • Estefany Licinha Mendes da Silva  
 • Karen Juliana Báez González  
