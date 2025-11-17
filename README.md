@@ -40,6 +40,7 @@ Embora seja um dataset útil para exercícios de visão computacional, ele apres
 
 Este trabalho desenvolveu um classificador de resíduos utilizando Redes Neurais Convolucionais (CNN) para categorizar imagens em seis classes. O principal desafio enfrentado foi o tamanho reduzido do dataset TrashNet (2.527 imagens) e seu desbalanceamento, especialmente na classe "trash" com apenas 137 exemplos.
 Para superar essas limitações, foram implementadas técnicas complementares: data augmentation para expandir artificialmente o dataset através de transformações como rotação e zoom, fine-tuning para otimizar os pesos da rede, e Focal Loss para lidar com o desbalanceamento entre classes. A combinação dessas estratégias foi bem-sucedida no combate ao overfitting, demonstrando convergência equilibrada entre as métricas de treino e validação.
+
 Apesar do sucesso no controle do overfitting, a acurácia final do modelo não atingiu valores elevados. Essa limitação pode ser atribuída ao tamanho reduzido do dataset original, à similaridade visual entre algumas categorias e à variabilidade dos objetos descartados. Os resultados evidenciam que, mesmo com técnicas avançadas de regularização, a quantidade e qualidade dos dados de treino continuam sendo fatores limitantes fundamentais no desempenho de modelos de deep learning.
 O projeto demonstra que é possível desenvolver soluções de inteligência artificial para triagem automática de resíduos mesmo com recursos limitados, contribuindo para processos de reciclagem mais eficientes e sustentáveis.
 
