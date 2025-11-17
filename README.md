@@ -36,9 +36,14 @@ Embora seja um dataset útil para exercícios de visão computacional, ele apres
 ## 3. Resultados
 O modelo foi treinado utilizando o dataset TrashNet com técnicas de data augmentation para aumentar a variabilidade das amostras. Os gráficos de acurácia e loss demonstram que o desempenho do modelo evoluiu de forma consistente ao longo das épocas. A acurácia aumentou progressivamente, aproximando-se de 0,75 tanto no conjunto de treino quanto de validação, enquanto o erro apresentou queda contínua. Essa trajetória indica aprendizado estável e ausência de sobreajuste significativo, uma vez que as curvas de treino e validação evoluem de maneira próxima.
 
+![graficos](https://github.com/user-attachments/assets/7c8e1644-9a5a-4180-a447-add960349646)
+
+
 Apesar do bom comportamento geral, a classe trash apresentou desempenho consideravelmente inferior às demais. Isso ocorreu mesmo após a aplicação combinada de três estratégias: data augmentation, Focal Loss e Fine-Tuning das camadas superiores. Embora essas técnicas tenham ampliado a robustez do treinamento, elas não foram suficientes para superar as limitações impostas pelo baixo número de amostras e pela grande variação visual presente na classe trash, fatores que dificultaram a consolidação de padrões discriminativos.
 
 A avaliação final no conjunto de teste evidencia esse comportamento. As classes cardboard, glass, metal, paper e plastic obtiveram bons níveis de acerto, com forte concentração de valores na diagonal da matriz de confusão. Essas classes apresentam características mais estruturadas e visualmente consistentes, o que favorece o aprendizado da rede. Por outro lado, a classe trash foi a menos precisa, ainda que tenha obtido algum nível de acerto (18 classificações corretas), apresentando confusões distribuídas principalmente com paper, metal e cardboard. Essa dispersão reforça que o modelo não identificou um padrão visual estável para essa categoria.
+
+![matrizConfusao](https://github.com/user-attachments/assets/54166dc9-7247-48fa-a1f7-b8ca9a2d696c)
 
 A matriz de confusão ilustra esses resultados. Observa-se que:
 *paper possui o melhor desempenho absoluto, com 106 acertos, sem grandes confusões com outras classes.
